@@ -9,12 +9,12 @@ Steps for launching the server on your local machine:
 
 -- Use requirements.txt to install all dependacies:
 
-   1. pip install -r requirements.txt
+   3. pip install -r requirements.txt
 
 -- Run the server:
 
-   1. uvicorn api_server:app --port=8090 --reload
+   4. uvicorn api_server:app --port=8090 --reload
 
 -- Start php server:
 
-   1. php -S localhost:8090
+   5. php -S localhost:8090
