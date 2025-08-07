@@ -11,10 +11,13 @@ Steps for launching the server on your local machine:
 
    3. pip install -r requirements.txt
 
+-- Put your OpenAI key in the .env file:
+   4. OPENAI_API_KEY="your_openai_api_key_here"
+
 -- Run the server:
 
-   4. uvicorn api_server:app --port=8090 --reload
+   5. uvicorn api_server:app --port=8090 --reload
 
 -- Start php server:
 
-   5. php -S localhost:8090
+   6. php -S localhost:8090
