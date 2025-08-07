@@ -5,7 +5,7 @@ Steps for launching the server on your local machine:
 -- If you want to ensure you do not have any conflicting dependacies (just for safety) on Linux/Linux-like systems, run the following commands:
 
    1. python -m venv venv
-   2. source venv/Scripts.activate\
+   2. source venv/Scripts/activate
 
 -- Use requirements.txt to install all dependacies:
 
