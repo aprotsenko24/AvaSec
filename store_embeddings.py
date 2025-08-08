@@ -11,7 +11,7 @@ load_dotenv() # Load environment variables from .env file
 
 
 # --- Configuration ---
-CSV_FILE_PATH = 'cisse.csv' # Replace with your CSV file path
+CSV_FILE_PATH = 'knowledge.csv' # Replace with your CSV file path
 CHROMA_DB_PATH = 'chroma_db'
 CHUNK_SIZE = 1000
 CHUNK_OVERLAP = 200
